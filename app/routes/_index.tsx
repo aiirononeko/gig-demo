@@ -17,7 +17,7 @@ export const clientLoader: ClientLoaderFunction = async () => {
   const startTime = performance.now()
 
   // 3秒の遅延をシミュレーション
-  await delay(1000)
+  await delay(3000)
 
   const endTime = performance.now()
   const loadTime = ((endTime - startTime) / 1000).toFixed(2)
