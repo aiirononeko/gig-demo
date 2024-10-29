@@ -1,3 +1,4 @@
+import type { LoaderFunction } from '@remix-run/cloudflare'
 import {
   type ClientLoaderFunction,
   json,
